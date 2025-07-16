@@ -18,6 +18,7 @@ rl.question("Qual o seu nome? ", function(nomeUsuario) {
         let distancia = Number(distanciapercorrida.replace(',', '.'));
    
         let litrosNecessarios = distancia / consumomedio; 
+        
         let resultado = litrosNecessarios * valorcombustivel; 
         let resultadoFormatado = resultado.toFixed(2).replace('.', ',');
 
